@@ -24,7 +24,7 @@ const pairs = [];
 // THIRD METHOD - LOOP O(nlog(n)) time | O(1) space
 // VALUES SHOULD BE SORTED
 
-values = values.sort((a, b) => a - b);
+// values = values.sort((a, b) => a - b);
 
 let leftPointer = 0;
 let rightPointer = values.length - 1;
